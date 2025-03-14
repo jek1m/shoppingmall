@@ -87,7 +87,7 @@ class ShoppingMall extends Product { // Product 클래스를 상속받아 Produc
       return;
     }
 
-    if ( !product.containsKey(inputname) || inputsum.runtimeType != int ) { // 제품명과 개수가 틀린 입력일 경우 출력. 제품명을 틀렸을때 바로 출력되게 하면 더 좋을듯
+    if ( !product.containsKey(inputname) || inputsum.runtimeType != int ) { 
       print('입력값이 올바르지 않아요 !');
         return;
     }
